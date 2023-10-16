@@ -1,15 +1,230 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>12 Boolflex</title>
     <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
 
-    contenuto
-    
+    <section class="container">
+        <h1>Benvenuto</h1>
+        <!-- Colonne da 1/12 -->
+        <div class="row">
+            <div class="col-xs-1">
+                <div class="box">1</div>
+            </div>
+            <div class="col-xs-1">
+                <div class="box">1</div>
+            </div>
+            <div class="col-xs-1">
+                <div class="box">1</div>
+            </div>
+            <div class="col-xs-1">
+                <div class="box">1</div>
+            </div>
+            <div class="col-xs-1">
+                <div class="box">1</div>
+            </div>
+            <div class="col-xs-1">
+                <div class="box">1</div>
+            </div>
+            <div class="col-xs-1">
+                <div class="box">1</div>
+            </div>
+            <div class="col-xs-1">
+                <div class="box">1</div>
+            </div>
+            <div class="col-xs-1">
+                <div class="box">1</div>
+            </div>
+            <div class="col-xs-1">
+                <div class="box">1</div>
+            </div>
+            <div class="col-xs-1">
+                <div class="box">1</div>
+            </div>
+            <div class="col-xs-1">
+                <div class="box">1</div>
+            </div>
+        </div>
+        <!-- Colonne da 2/12 -->
+        <div class="row">
+            <div class="col-xs-2">
+                <div class="box">2</div>
+            </div>
+            <div class="col-xs-2">
+                <div class="box">2</div>
+            </div>
+            <div class="col-xs-2">
+                <div class="box">2</div>
+            </div>
+            <div class="col-xs-2">
+                <div class="box">2</div>
+            </div>
+            <div class="col-xs-2">
+                <div class="box">2</div>
+            </div>
+            <div class="col-xs-2">
+                <div class="box">2</div>
+            </div>
+        </div>
+        <!-- Colonne da 3/12 -->
+        <div class="row">
+            <div class="col-xs-3">
+                <div class="box">3</div>
+            </div>
+            <div class="col-xs-3">
+                <div class="box">3</div>
+            </div>
+            <div class="col-xs-3">
+                <div class="box">3</div>
+            </div>
+            <div class="col-xs-3">
+                <div class="box">3</div>
+            </div>
+        </div>
+        <!-- Colonne da 4/12 -->
+        <div class="row">
+            <div class="col-xs-4">
+                <div class="box">4</div>
+            </div>
+            <div class="col-xs-4">
+                <div class="box">4</div>
+            </div>
+            <div class="col-xs-4">
+                <div class="box">4</div>
+            </div>
+        </div>
+        <!-- Colonne da 5/12 -->
+        <div class="row">
+            <div class="col-xs-5">
+                <div class="box">5</div>
+            </div>
+            <div class="col-xs-5">
+                <div class="box">5</div>
+            </div>
+            <div class="col-xs-2">
+                <div class="box">2</div>
+            </div>
+        </div>
+        <!-- Colonne da 6/12 -->
+        <div class="row" style="border: solid 2px black;">
+            <div class="col-xs-6">
+                <div class="box">6</div>
+            </div>
+            <div class="col-xs-6">
+                <div class="box">6</div>
+            </div>
+            <div class="col-xs-6">
+                <div class="box">6</div>
+            </div>
+            <div class="col-xs-6">
+                <div class="box">6</div>
+            </div>
+        </div>
+        <!-- Colonne varie -->
+        <div class="row">
+            <div class="col-xs-10">
+                <div class="box">10</div>
+            </div>
+            <div class="col-xs-1">
+                <div class="box">1</div>
+            </div>
+            <div class="col-xs-1">
+                <div class="box">1</div>
+            </div>
+        </div>
+        <!-- Colonne nested (annidate) -->
+        <div class="row">
+            <div class="col-xs-6">
+                <div class="row box">
+                    <div class="col-xs-6">
+                        <div class="box-orange">A</div>
+                    </div>
+                    <div class="col-xs-6">
+                        <div class="box-orange">B</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-6">
+                <div class="box">PROVA</div>
+            </div>
+        </div>
+        <!-- Colonne con offset -->
+        <div class="row">
+            <div class="col-xs-2 col-offset-1">
+                <div class="box">2</div>
+            </div>
+            <div class="col-xs-2">
+                <div class="box">2</div>
+            </div>
+            <div class="col-xs-2">
+                <div class="box">2</div>
+            </div>
+            <div class="col-xs-2">
+                <div class="box">2</div>
+            </div>
+            <div class="col-xs-2">
+                <div class="box">2</div>
+            </div>
+        </div>
+        <!-- Colonne con offset 2 -->
+        <div class="row">
+            <div class="col-xs-4 col-offset-1">
+                <div class="box">4</div>
+            </div>
+            <div class="col-xs-4 col-offset-2">
+                <div class="box">4</div>
+            </div>
+        </div>
+        <!-- Colonne automatiche -->
+        <div class="row">
+            <div class="col">
+                <div class="box">A</div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="box">A</div>
+            </div>
+            <div class="col">
+                <div class="box">B</div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="box">A</div>
+            </div>
+            <div class="col">
+                <div class="box">B</div>
+            </div>
+            <div class="col">
+                <div class="box">C</div>
+            </div>
+        </div>
+        <!-- Colonne responsive -->
+        <div class="row">
+            <div class="col-xs-12 col-md-6 col-lg-3">
+                <div class="box">PROVA</div>
+            </div>
+            <div class="col-xs-12 col-md-6 col-lg-3">
+                <div class="box">PROVA</div>
+            </div>
+            <div class="col-xs-12 col-md-6 col-lg-3">
+                <div class="box">PROVA</div>
+            </div>
+            <div class="col-xs-12 col-md-6 col-lg-3">
+                <div class="box">PROVA</div>
+            </div>
+        </div>
+    </section>
+
 </body>
+
 </html>
